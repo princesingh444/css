@@ -1,0 +1,104 @@
+/* Element Selectors -- */
+
+/* p{
+    color: red;
+}
+h3{
+    color: blue;
+} */
+
+
+
+
+/* Id selectors -- */
+
+/* #p1id{
+color: red;
+
+}
+
+
+#pid{
+ color: red;
+} */
+
+
+
+
+/* Class selectors */
+
+/* class have property to take one and more class name .
+isko use karne k liye bas space key press karke secondname
+likh dete hai  */
+
+/* .eclass{
+    color: red;
+
+
+}
+
+.idclass {
+
+    color: blue;
+} */
+
+
+
+/*  Universe selectors */
+
+/* *{
+    color: rgb(10, 243, 10);
+    background-color: black;
+
+}  */
+
+
+
+/* Nexted selectors  */
+
+/* when the property are same than we use both are together 
+and we use class  and any tag  as well as . note - use , than secondOne */
+
+/* Example is this -->>>  */
+
+ /* #p1id, #pid ,.idclass{
+color: red;
+} */
+
+
+
+/*  specificity order  */
+/* ( ID >> Class >> tagname) */
+
+/* #nextid{
+    color: red;
+}
+
+article{
+    color: green;
+}
+
+.nclass{
+    color: blue; 
+} */
+
+
+
+
+/* Descendant selector */
+
+/* #descSel p{
+color: #ff0000;
+} */
+
+/* Direct Selectors  */
+
+/* #dirSel >p{
+color: red;
+} */
+
+#dirSel section{
+    color: red;
+}                          
+
+
