@@ -1,0 +1,22 @@
+body{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    color: #000000;
+    background-color:#bfe8d2;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: honeydew;
+    border-radius: 30px;
+}
+article{
+    background-color: #da8383;
+    padding: 45px;
+    margin: 45px;
+    font-size: 16px;
+    border-radius: 25px;
+    /* height: 80vh;
+    width: 80vw; */
+}
