@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div{
+  border: 12px solid ; /* border k ander space k liye padding , 
+              or bahar k space k liye margin use karte hai   */
+  padding: 35px 40px 45px  50px;  
+  /* padding-left: 50px; */
+  margin: 25px 20px;
+  height: 250px;
+  width: 250px;
+}
