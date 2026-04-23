@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Pacifico&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-style:double;
+    text-decoration-color: #e70c0c;    
+    font-family: "Momo Signature", cursive;
+    text-shadow: 2px 2px 25px red;
+}
+p{
+    text-align: justify;
+    /* letter-spacing: 0.09em; */
+    /* word-spacing: 0.9em; */
+    
+}
