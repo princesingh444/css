@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    margin: 100px;
+}
+.box{
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+/* static -- it is default  */
+.static{
+    position: static;
+    background-color: black;
+}
+/* relative - its create a container */
+.rel{
+    position: relative;
+    background-color: red;
+    /* top: 50px;
+    left:-100px ;*/
+} 
+/* abs-irts move anywhere */
+.abs{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* this is moveable but in this container . its doesn't move outside the container */
+.sti{
+    background-color: green;
+    position: sticky;
+    top: 300px;
+    left: 190px;
+}
+/*  this is fixed in a screen tis is use for navigation bar - login exit register home or etc */
+.fix{  
+    background-color: hotpink;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.space{
+height: 1000px;
+}
