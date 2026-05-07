@@ -1,0 +1,53 @@
+.outerContainer{
+   width: 400px;
+   height: 400px;
+   background-color: aqua;
+   margin:100px auto;
+
+}
+
+.innerContainer{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(159, 75, 75);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Scale Property ---> */
+
+    /* transform: scale(2); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transform: scale(2,1.5); */
+    
+
+    /* Skew Property ---> */
+    /* transform: skew(30deg); */
+
+    /* Translate Property ---> */
+    
+    /* transform: translate(20px,60px); */
+    /* transform: translate(50% ,50%); */
+
+
+    /* Rotate Property ---> */
+    /* transform: rotate(30deg); */
+
+    /* Combination of all things */
+
+    /* transform: rotate(45deg)scale(1.5)skew(20deg)translate(50%);*/
+  
+    transform-origin: top left;
+    transition: 0.6s ease;
+
+   
+}
+
+.innerContainer:hover{
+    transform: rotate(60deg);
+    background-color: rgb(45, 34, 160);
+    color: rgb(255, 0, 0);
+    
+}
