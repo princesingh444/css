@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.container{
+    height: 380px;
+    width: 380px;
+    border: 3px solid white;
+    animation: orbit 3s linear infinite;
+    border-radius: 50%;
+}
+
+.box{
+    height: 120px;
+    width: 120px;
+    background-color: lightgray;
+    /* animation-name: orbit; */
+     border-radius: 50%;
+    /* transition: 0.5s ease-in; */
+    /* transition-delay: 0.2s; */
+    /* animation-name: shiftTheBox; */
+    /* animation-name: slide; */
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction:alternate; */
+    /* animation-timing-function: linear; */
+    /* animation-fill-mode:forwards ; */
+}
+
+/* .box:hover{
+    transform: translate(280px);
+} */
+
+
+@keyframes orbit{
+    from{
+    transform: rotate(0);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+
+@keyframes slide{
+    0%{
+       transform: translate(-260px);
+    }
+    100%{
+        transform: translate(255px);
+
+    }
+}
+
+@keyframes shiftTheBox{
+    0%,100%{
+     transform: translate(0,0);
+     background-color: orange;
+    }
+    25%{
+    transform: translate(260px,0);
+    background-color: orange;
+    }
+    50%{
+      transform: translate(260px,260px);
+      background-color: rgb(255, 255, 255);
+     border-radius: 50%;
+
+    }
+    75%{
+    transform: translate(0px,260px);
+    background-color: green;
+    }
+    /* 100%{
+        transform: translate(0,0);
+    } */
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  gap: 10px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation: loading 1s ease-in-out infinite alternate ;
+}
+
+.dot2{
+   animation-delay: 0.2s;
+}
+.dot4{
+   animation-delay: 0.2s;
+}
+
+@keyframes loading{
+    from{
+        transform:translatey(-5px);
+    }
+    to{
+        transform: translatey(5px);
+    }
+}
